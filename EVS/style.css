@@ -1,0 +1,419 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 73.125rem;
+  margin: 0 auto;
+}
+
+/********************
+******* HOME *******
+********************/
+.home {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(36, 33, 33);
+}
+
+.home .header {
+  padding: 3.125rem 0;
+  background-color: rgb(100, 192, 15);
+}
+
+.home .header .nav {
+  display: flex;
+  justify-content: center;
+}
+
+.home .header .nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.home .header .nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.375rem;
+}
+
+.home .header .nav ul li img {
+  width: 6.25rem;
+}
+
+.home .header .nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding: 1.25rem;
+}
+
+.home .header .nav ul li a:hover {
+  border-bottom: 0.0625rem solid chartreuse;
+  color: chartreuse;
+}
+
+.home .logo {
+  width: 62.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem;
+  margin: 10.625rem auto 0 auto;
+}
+
+/********************
+****** PRODUCT ******
+********************/
+.product h1 {
+  text-align: center;
+  margin: 1.5625rem auto;
+  font-size: 2.5rem;
+}
+
+.product .box {
+  display: flex;
+}
+
+.product img {
+  height: 80vh;
+  display: flex;
+  margin: 0 0.625rem 0 0;
+  width: 40.625rem;
+  overflow-x: hidden;
+}
+
+.product .info {
+  text-align: center;
+  margin-left: 3.75rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.product .box .info span {
+  font-size: 0.625rem;
+}
+
+.product .back img {
+  height: 1.5625rem;
+  width: 1.5625rem;
+  margin-left: 78.125rem;
+  margin-bottom: 0.625rem;
+}
+
+/********************
+****** EVS ******
+********************/
+.evs {
+  text-align: center;
+  background-color: chartreuse;
+  color: rgb(36, 33, 33);
+  height: 100vh;
+}
+
+.evs .text {
+  display: flex;
+}
+
+.evs .text h1 {
+  font-size: 2.5rem;
+  margin: 1.5625rem auto 0.625rem auto;
+  letter-spacing: -0.125rem;
+  justify-content: center;
+  display: block;
+}
+
+.evs .text h1:first-letter {
+  color: white;
+  font-size: 3.125rem;
+  font-weight: bold;
+  font-weight: 900;
+}
+
+.evs span {
+  font-size: 1.5625rem;
+  margin-bottom: 2.5rem;
+  display: block;
+}
+
+.evs .evsbox {
+  display: flex;
+}
+
+.evs .infoevs {
+  display: flex;
+  justify-content: start;
+  margin: 6.25rem 1.25rem 0 1.25rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.evs .fit img {
+  width: 12.5rem;
+  height: 12.5rem;
+  border: 0.125rem solid white;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 0.3125rem;
+}
+
+.evs .fit .shake1 {
+  display: flex;
+  justify-items: center;
+  margin-top: -15.5rem;
+  position: absolute;
+  margin-top: 12.5rem;
+  margin-left: 5.6875rem;
+}
+
+.evs .fit .shake2 {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 5.6875rem;
+}
+
+.evs .fit .shake1::before {
+  content: '';
+  display: flex;
+  background-color: white;
+  height: 12.25rem;
+  width: 12.1875rem;
+  bottom: 0;
+  right: 0;
+  position: relative;
+  border-radius: 0.3125rem;
+  border: 0.125rem solid white;
+}
+
+.evs .fit .shake2::after {
+  content: '';
+  display: flex;
+  background-color: white;
+  height: 12.25rem;
+  width: 12.125rem;
+  left: -0.0625rem;
+  position: relative;
+  border: 0.125rem solid white;
+  border-radius: 0.3125rem;
+  margin-left: 0.0625rem;
+}
+
+.evs .evsinfo {
+  display: flex;
+  justify-content: end;
+  justify-items: end;
+  text-align: center;
+  margin: 6.25rem 0 0 36.875rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.evs .back img {
+  height: 1.5625rem;
+  width: 1.5625rem;
+  margin-left: 76.25rem;
+  margin-top: 10rem;
+}
+
+/********************
+***** GYN *****
+********************/
+.gin {
+  background-color: rgb(36, 33, 33);
+  color: white;
+  height: 100vh;
+  text-align: center;
+
+  overflow-y: hidden;
+}
+
+.gin h1 {
+  font-size: 2.5rem;
+  margin-top: 1.5625rem;
+}
+
+.gin .picture img {
+  border: 0.0625rem solid white;
+  height: 29.375rem;
+  width: 17.625rem;
+  border-radius: 0.3125rem;
+  margin-top: 1.5625rem;
+}
+
+.gin .back img {
+  height: 1.5625rem;
+  width: 1.5625rem;
+  margin-left: 76.25rem;
+  margin-top: 0.9375rem;
+}
+
+/********************
+***** CONTACT *****
+********************/
+.contact {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.contact h1 {
+  margin-top: 1.5625rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.contact .social {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 1.5625rem 31.25rem 0 31.25rem;
+}
+
+.contact .social .whats img {
+  width: 2.5rem;
+}
+
+.contact .social .insta img {
+  width: 2.25rem;
+  margin-top: 0.25rem;
+}
+
+.contact .form {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  justify-items: center;
+  margin-top: 3.125rem;
+  position: relative;
+}
+
+.contact .form label,
+.contact label {
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+
+.contact .form input {
+  width: 20rem;
+  height: 1.875rem;
+}
+
+.contact .textarea {
+  margin-top: 1.25rem;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.contact textarea {
+  height: 6.25rem;
+  width: 73.125rem;
+  margin-top: 0.1875rem;
+}
+
+button {
+  background-color: chartreuse;
+  color: white;
+  height: 3.125rem;
+  width: 5.625rem;
+  font-weight: bold;
+  font-size: 0.9375rem;
+  border: none;
+  border-radius: 0.1875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.625rem;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: green;
+  transition: 1s;
+}
+
+.contact .back img {
+  height: 1.5625rem;
+  width: 1.5625rem;
+  margin-left: 78.125rem;
+  margin-top: 9.375rem;
+}
+
+/********************
+***** LOCATION *****
+********************/
+.location {
+  background-color: chartreuse;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.location .head {
+  background-color: #191919;
+  padding: 2.5rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2.5rem auto 0 auto;
+}
+
+.location .head .info {
+  display: flex;
+  align-items: center;
+}
+
+.location .head .info .icon {
+  display: flex;
+  align-items: center;
+  margin-right: 0.9375rem;
+  padding: 0.625rem;
+  height: 3.125rem;
+  width: 3.125rem;
+  justify-content: center;
+  border: 0.0625rem solid chartreuse;
+  border-radius: 100%;
+}
+
+.location .head .info .text span {
+  display: block;
+  font-size: 0.8125rem;
+}
+
+.location .head .info .text span:first-child {
+  color: silver;
+}
+
+.location .head .info .text span:last-child {
+  color: white;
+}
+
+.location .maps {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.location .maps iframe {
+  width: 100%;
+}
+
+.location .back img {
+  height: 1.5625rem;
+  width: 1.5625rem;
+  margin-left: 78.125rem;
+  margin-top: 0.125rem;
+}
